@@ -8,7 +8,7 @@ export default function VideoLectures() {
       subject: "Mathematics",
       duration: "32 min",
       views: "12k views",
-      thumbnail: "https://img.youtube.com/vi/5vR0wl8v_8w/hqdefault.jpg",
+      thumbnail: "https://i.ytimg.com/vi/6An_ozEdE6w/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCHIrvpfaDUSCTG7chOVOouJIfmQg",
       link: "https://www.youtube.com/watch?v=x9cZ0G0lFCE",
     },
     {

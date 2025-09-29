@@ -1,6 +1,7 @@
 "use client";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function ForTeachers() {
   const data = [
@@ -29,9 +30,9 @@ export default function ForTeachers() {
           <p className="text-gray-600 mb-6 sm:text-lg">
             Quickly see subjects where students struggle the most and intervene with targeted help.
           </p>
-          <button className="px-6 py-3 bg-indigo-600 text-white rounded-xl shadow hover:bg-indigo-700 transition">
-            Teacher Login
-          </button>
+         <Link to="/login">
+						<button className="px-6 py-3 bg-indigo-600 text-white rounded-xl shadow hover:bg-indigo-700 transition">Student Login</button>
+					</Link>
         </motion.div>
 
         {/* Chart Section */}
