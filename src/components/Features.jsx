@@ -48,7 +48,7 @@ export default function StudentRiskOverview() {
 
 					{/* Radial Chart */}
 					<motion.div
-						className="md:w-1/2 h-64 bg-white/70 backdrop-blur-xl p-6 rounded-3xl shadow-lg flex items-center justify-center"
+						className=" w-full md:w-1/2 h-64 bg-white/70 backdrop-blur-xl p-6 rounded-3xl shadow-lg flex items-center justify-center"
 						initial={{ opacity: 0, x: 50 }}
 						whileInView={{ opacity: 1, x: 0 }}
 						transition={{ duration: 0.8 }}>
