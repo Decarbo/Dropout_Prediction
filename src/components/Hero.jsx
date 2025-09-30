@@ -59,7 +59,7 @@ export default function Hero() {
 						initial={{ opacity: 0, y: 20 }}
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.9 }}>
-						EduAlert unifies attendance, assessments, and fee records into one simple dashboard. It highlights at-risk students using transparent rules and timely alerts—so teachers can guide, and students can recover before it’s too late.
+						Siksha Setu unifies attendance, assessments, and fee records into one simple dashboard. It highlights at-risk students using transparent rules and timely alerts—so teachers can guide, and students can recover before it’s too late.
 					</motion.p>
 
 					<motion.div
